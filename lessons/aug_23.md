@@ -1,6 +1,7 @@
 ## Variables, Inputs, and Outputs ##
 # August 23, 2023 #
 
+Lesson Notes
 ```.py
 '''
 Input output and functions
@@ -28,6 +29,7 @@ print(f"Your position is {position}, and salary is {salary}.")
 
 ```
 
+ISAK Email Adress Generator
 ```.py
 #Validating correct inputs from user. Needs to be done every time there is an input from the user. Do not trust the user.
 while True:
@@ -51,11 +53,12 @@ while True:
 email1 = f"{year}.{first_name}.{last_name}@uwcisak.jp"
 
 print(f"Your school email is: {email1}")
+```
 
-
-
+Check if input email is an ISAK associated email
+```.py
 while True:
-    raw_email = input("What is your email adress? ")
+    raw_email = input("What is your emailaddresss? ")
     if '@' in raw_email:
         email2 = raw_email.lower()
         break
