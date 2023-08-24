@@ -29,28 +29,28 @@ print(f"Your position is {position}, and salary is {salary}.")
 ```
 
 ```.py
-#Validating correct inputs from user. Needs to be done every time there is an input from the user. Do not trust the user.
-# while True:
-#     raw_year = input("What year will you graduate ISAK? ")
-#     if raw_year.isdigit() == True:
-#         year = int(raw_year)
-#         break
-#
-# while True:
-#     raw_first_name = input("What is your first name? ")
-#     if raw_first_name.isalpha() == True:
-#         first_name = raw_first_name.lower()
-#         break
-#
-# while True:
-#     raw_last_name = input("What is your last name? ")
-#     if raw_last_name.isalpha() == True:
-#         last_name = raw_last_name.lower()
-#         break
-#
-# email1 = f"{year}.{first_name}.{last_name}@uwcisak.jp"
-#
-# print(f"Your school email is: {email1}")
+Validating correct inputs from user. Needs to be done every time there is an input from the user. Do not trust the user.
+ while True:
+     raw_year = input("What year will you graduate ISAK? ")
+     if raw_year.isdigit() == True:
+         year = int(raw_year)
+         break
+
+ while True:
+     raw_first_name = input("What is your first name? ")
+     if raw_first_name.isalpha() == True:
+         first_name = raw_first_name.lower()
+         break
+
+ while True:
+     raw_last_name = input("What is your last name? ")
+     if raw_last_name.isalpha() == True:
+         last_name = raw_last_name.lower()
+         break
+
+email1 = f"{year}.{first_name}.{last_name}@uwcisak.jp"
+
+print(f"Your school email is: {email1}")
 
 
 
