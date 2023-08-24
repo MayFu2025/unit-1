@@ -27,3 +27,41 @@ salary = int(input("Please enter your salary in JPY"))
 print(f"Your position is {position}, and salary is {salary}.")
 
 ```
+
+```.py
+#Validating correct inputs from user. Needs to be done every time there is an input from the user. Do not trust the user.
+# while True:
+#     raw_year = input("What year will you graduate ISAK? ")
+#     if raw_year.isdigit() == True:
+#         year = int(raw_year)
+#         break
+#
+# while True:
+#     raw_first_name = input("What is your first name? ")
+#     if raw_first_name.isalpha() == True:
+#         first_name = raw_first_name.lower()
+#         break
+#
+# while True:
+#     raw_last_name = input("What is your last name? ")
+#     if raw_last_name.isalpha() == True:
+#         last_name = raw_last_name.lower()
+#         break
+#
+# email1 = f"{year}.{first_name}.{last_name}@uwcisak.jp"
+#
+# print(f"Your school email is: {email1}")
+
+
+
+while True:
+    raw_email = input("What is your emailaddresss? ")
+    if '@' in raw_email:
+        email2 = raw_email.lower()
+        break
+
+if email2.endswith('@uwcisak.jp'):
+    print("Welcome to ISAK!")
+else:
+    print("You are not allowed!")
+```
