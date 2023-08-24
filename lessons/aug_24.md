@@ -21,6 +21,7 @@ else:
     print("The number is negative")
 ```
 
+Sort 3 numbers from least to greatest
 ```.py
 #Validate user inputs
 while True:
@@ -60,7 +61,8 @@ else:
         print(f"{c}, {b}, {a}")
 ```
 
-Sort 3 numbers from least to greatest
+Coding Exercise 3: Write a program to sort alphabetically three names entered by the user. Note: Assume that only the first letter of names are the same.
+*My program for this does not use if statements...
 ```.py
 #Validate user inputs
 while True:
@@ -81,8 +83,6 @@ while True:
         name_c = raw_name_c
         break
 
-Coding Exercise 3: Write a program to sort alphabetically three names entered by the user. Note: Assume that only the first letter of names are the same.
-*My program for this does not use if statements...
 #Sort user inputs into alphabetical order
 names = [name_a.title(), name_b.title(), name_c.title()] #Creates a list of user inputs. The function title() is used to make sure names are capitalized.
 names.sort() #sort() function sorts strings into alphabetical order. Sorts numbers into smallest to biggest if reverse parameter is not specified.
