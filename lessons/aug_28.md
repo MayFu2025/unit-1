@@ -22,3 +22,29 @@ def larger_Integer(A:int, B:int)->int:
 
 #inputs to the function are different from inputs from the user.
 ```
+Mystery Box Exercises
+```.py
+#Mystery box 1
+def mystery_box1(word : str, flip_case : bool) -> str:
+    "This function reverses the word. If flip_case is True, it will also turn the string into lowercase."
+    output = "" #empty string
+    for letter in word:
+        output = letter + output
+    if flip_case == True:
+        output = output.lower()
+        return output
+
+print(mystery_box1("Hello", True))
+
+#Mystery box 2
+def mystery_box2(email:str):
+    "This function takes an email and returns the name of the email holder, and the domain of the email."
+    parts = email.split('@')
+    domain = parts[1]
+    name = parts[0].split('.')
+    name = ' '.join(name)
+    name = name.title()
+    return name, domain
+
+print(mystery_box2('john.doe@gmail.com'))
+```
