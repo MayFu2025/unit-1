@@ -1,7 +1,11 @@
 # Quiz 003 #
 ## Aug 8 2023 #
 
-(insert quiz slide)
+![Screenshot 2023-09-03 at 16.29.45.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fqh%2Fl7367_q936d7t2_57vd5fkjw0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_kVVlRN%2FScreenshot%202023-09-03%20at%2016.29.45.png)
+
+Flow Diagram:
+
+*fig. 1* Flow diagram of solution
 
 My Solution:
 ```.py
@@ -20,12 +24,4 @@ def convert_protein(in_protein:str)->str:
 ```
 
 Checking that it works:
-```.py
-print (convert_protein('A'))
-print (convert_protein('G'))
-print (convert_protein('C'))
-print (convert_protein('T'))
-print (convert_protein('AGCT'))
-```
-Output in the console:
-<img width="924" alt="Screenshot 2023-08-28 at 8 31 24" src="https://github.com/MayFu2025/unit-1/assets/122759229/ee6e5c0e-a7f8-428c-9a24-58f2f288c15f">
+![Screenshot 2023-09-03 at 16.34.37.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fqh%2Fl7367_q936d7t2_57vd5fkjw0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_m0hl5M%2FScreenshot%202023-09-03%20at%2016.34.37.png)
