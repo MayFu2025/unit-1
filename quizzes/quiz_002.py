@@ -3,3 +3,4 @@ def check_20(comparison1:list, comparison2:list)->bool:
         if item == 20:
             return True
 
+print("hello world!")
