@@ -4,7 +4,7 @@
 ![Screenshot 2023-09-03 at 16.29.45.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fqh%2Fl7367_q936d7t2_57vd5fkjw0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_kVVlRN%2FScreenshot%202023-09-03%20at%2016.29.45.png)
 
 Flow Diagram:
-![Quiz003.jpg](..%2F..%2F..%2FDownloads%2FQuiz003.jpg)
+![](/quizzes/assets/Quiz003.jpg)
 *fig. 1* Flow diagram of solution
 
 My Solution:
