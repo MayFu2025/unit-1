@@ -10,8 +10,6 @@
 #                 index = i+1
 #                 sum_total += index
 #     return sum_total
-print(hello world)
-
 
 #HL Math -> 1385
 def sum_letters(text:str) -> int:
