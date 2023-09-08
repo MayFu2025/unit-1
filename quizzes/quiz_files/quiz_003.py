@@ -1,4 +1,3 @@
-print('hello world')
 def convert_protein(in_protein: str) -> str:
     out_protein = ''
     for letter in in_protein:
