@@ -1,6 +1,6 @@
 # Quiz 004 #
 ## Sep ? 2023 #
-
+<img width="902" alt="Screenshot 2023-09-08 at 12 46 39" src="https://github.com/MayFu2025/unit1_repo/assets/122759229/2e0c8ad8-6c12-4f8a-9703-52d9f33e9f55">
 
 
 Flow Diagram:
