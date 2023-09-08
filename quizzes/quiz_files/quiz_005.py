@@ -19,4 +19,4 @@ def sum_letters(text:str) -> int:
     return sum_total
 
 
-print(sum_letters(text='hello'))
+print(sum_letters(text='Hello'))
