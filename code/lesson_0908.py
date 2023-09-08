@@ -16,7 +16,7 @@ def frame_maker(msg:str, symbol:str, spaces:int)->str:
 
 # September 8th lesson: importing data
 
-with open("../database.csv", 'r') as myfile:
+with open("../database_lesson_0908.csv", 'r') as myfile:
     database = myfile.readlines()
 print(database)
 
@@ -92,3 +92,7 @@ while ordering:
 
 print(frame_maker(msg=f"Your total is {(total*1.1):.2f} yen.", symbol='*', spaces=19))
 
+
+# CREATE NEW CSV FILE WHICH SAVES THE TOTAL FROM EACH TIME THE CODE IS RUN
+with open("sales_lesson_0908.csv", 'a') as myfile:
+    myfile.writelines(f"order date total {total*1.1:.2f}\n")
