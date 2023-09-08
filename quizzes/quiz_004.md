@@ -4,8 +4,8 @@
 
 
 Flow Diagram:
-
-*fig. 1* Flow diagram of solution
+![](/quizzes/assets/Quiz004.jpg)
+*fig. 1* Flow diagram of solution to quiz 004
 
 My Solution:
 ```.py
@@ -21,5 +21,5 @@ def check_factors(number: int):
     return list
 ```
 
-Checking that it works:
-![Screenshot 2023-09-05 at 11.14.01.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fqh%2Fl7367_q936d7t2_57vd5fkjw0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_z1FfwJ%2FScreenshot%202023-09-05%20at%2011.14.01.png)
+Proof:
+<img width="1157" alt="Screenshot 2023-09-08 at 12 44 44" src="https://github.com/MayFu2025/unit1_repo/assets/122759229/bdff38ec-c24c-4dc3-aa25-16b8b4fece89">
