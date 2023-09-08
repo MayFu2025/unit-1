@@ -18,5 +18,8 @@ def sum_letters(text:str) -> int:
         sum_total += ord(let)
     return sum_total
 
+print(sum_letters(text='Math'))
+print(sum_letters(text='maTH'))
+print(sum_letters(text='Hello world'))
+print(sum_letters(text='Computer SCIENCE'))
 
-print(sum_letters(text='Hello'))

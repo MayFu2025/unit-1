@@ -1,4 +1,3 @@
-print("hello world")
 def check_factors(number: int):
     list = []
     for i in range(1,number+1):
