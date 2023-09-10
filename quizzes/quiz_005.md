@@ -6,7 +6,9 @@
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
+![](images/quiz_005_diagram1.jpg)
 *fig. 2* **Flow diagram of SL solution**
+![](images/quiz_005_diagram2.jpg)
 *fig. 3* **Flow diagram of HL solution**
 
 ### Solution

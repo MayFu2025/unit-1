@@ -6,6 +6,7 @@
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
+![](images/quiz_008_diagram.jpg)
 *fig. 2* **Flow diagram of solution**
 
 ### Solution
