@@ -6,7 +6,8 @@
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
-*fig. 2* **Flow diagram of solution**
+*fig. 2* **Flow diagram of SL solution**
+*fig. 3* **Flow diagram of HL solution**
 
 ### Solution
 ```.py
@@ -50,4 +51,4 @@ print("HL input 'MATH':", sum_letters_hl(text='MATH'))
 
 ### Evidence
 ![](images/quiz_005_evidence.png)
-*fig. 3* **Screenshot of output in console**
+*fig. 4* **Screenshot of output in console**

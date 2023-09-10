@@ -6,7 +6,8 @@
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
-*fig. 2* **Flow diagram of solution**
+*fig. 2* **Flow diagram of SL solution**
+*fig. 3* **Flow diagram of HL solution**
 
 ### Solution
 ```.py
@@ -38,6 +39,6 @@ print('HL check:', locate_room(100))
 
 ### Evidence
 ![](images/quiz_006_evidence1.png)
-*fig. 3* **Screenshot of output in console for SL solution**
+*fig. 4* **Screenshot of output in console for SL solution**
 ![](images/quiz_006_evidence2.png)
-*fig. 4* **Screenshot of output in console for HL solution**
+*fig. 5* **Screenshot of output in console for HL solution**
