@@ -9,9 +9,12 @@ def convert_protein(in_protein: str) -> str:
             out_protein += 'A'
         elif letter == 'C':
             out_protein += 'G'
+        else:
+            return "Error: unknown letter in protein string"
     return out_protein
 
 
+# Check if it works:
 print(convert_protein('A'))
 print(convert_protein('G'))
 print(convert_protein('C'))

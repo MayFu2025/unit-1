@@ -1,4 +1,4 @@
-def cipher_message(msg:str, shift:int)->str:
+def cipher_message(msg: str, shift: int) -> str:
     msg.lower()
     ciphered = ''
 
@@ -19,6 +19,7 @@ def cipher_message(msg:str, shift:int)->str:
     return ciphered
 
 
-print(cipher_message(msg="hellow world", shift=13))
-print(cipher_message(msg="abcdefghijklmnopqrstuvqxyz", shift=13))
+# Check that it works:
+print(cipher_message(msg="hello world", shift=13))
+print(cipher_message(msg="abcdefghijklmnopqrstuvwxyz", shift=13))
 print(cipher_message(msg="secret", shift=-10))

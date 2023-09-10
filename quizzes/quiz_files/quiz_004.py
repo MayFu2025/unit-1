@@ -1,13 +1,16 @@
-def check_factors(number: int):
-    list = []
+def check_factors(number: int) -> list:
+    factors = []
     for i in range(1,number+1):
         if number % i == 0:
-            list.append(i)
-    if list == [1, number]:
-        list.append('True')
+            factors.append(i)
+    if factors == [1, number]:
+        factors.append('True')
     else:
-        list.append('False')
-    return list
+        factors.append('False')
+    return factors
 
 
-print(check_factors(28))
+# Check if function works:
+print(check_factors(90))
+print(check_factors(31))
+

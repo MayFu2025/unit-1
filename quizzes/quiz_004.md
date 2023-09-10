@@ -1,25 +1,32 @@
-# Quiz 004 #
-## Sep ? 2023 #
-<img width="902" alt="Screenshot 2023-09-08 at 12 46 39" src="https://github.com/MayFu2025/unit1_repo/assets/122759229/2e0c8ad8-6c12-4f8a-9703-52d9f33e9f55">
+# Quiz 004
+<hr>
 
+### Prompt
+![](images/quiz_004_slide.png)
+*fig. 1* **Screenshot of quiz slides**
 
-Flow Diagram:
-![](/quizzes/assets/Quiz004.jpg)
-*fig. 1* Flow diagram of solution to quiz 004
+### Flow Diagram
+*fig. 2* **Flow diagram of solution**
 
-My Solution:
+### Solution
 ```.py
-def check_factors(number: int):
-    list = []
+def check_factors(number: int) -> list:
+    factors = []
     for i in range(1,number+1):
         if number % i == 0:
-            list.append(i)
-    if list == [1, number]:
-        list.append('True')
+            factors.append(i)
+    if factors == [1, number]:
+        factors.append('True')
     else:
-        list.append('False')
-    return list
+        factors.append('False')
+    return factors
+
+
+# Check if function works:
+print(check_factors(90))
+print(check_factors(31))
 ```
 
-Proof:
-<img width="1157" alt="Screenshot 2023-09-08 at 12 44 44" src="https://github.com/MayFu2025/unit1_repo/assets/122759229/bdff38ec-c24c-4dc3-aa25-16b8b4fece89">
+### Evidence
+![](images/quiz_004_evidence.png)
+*fig. 3* **Screenshot of output in console**

@@ -1,14 +1,16 @@
 # Quiz 003
-## Aug 8 2023
-<img width="902" alt="Screenshot 2023-09-08 at 12 45 58" src="https://github.com/MayFu2025/unit1_repo/assets/122759229/f6954fb2-860b-4921-8633-f01bbb257e59">
+<hr>
 
-Flow Diagram:
-![](/quizzes/assets/Quiz003.jpg)
-*fig. 1* Flow diagram of solution
+### Prompt
+![](images/quiz_003_slide.png)
+*fig. 1* **Screenshot of quiz slides**
 
-My Solution:
+### Flow Diagram
+*fig. 2* **Flow diagram of solution**
+
+### Solution
 ```.py
-def convert_protein(in_protein:str)->str:
+def convert_protein(in_protein: str) -> str:
     out_protein = ''
     for letter in in_protein:
         if letter == 'A':
@@ -19,8 +21,19 @@ def convert_protein(in_protein:str)->str:
             out_protein += 'A'
         elif letter == 'C':
             out_protein += 'G'
+        else:
+            return "Error: unknown letter in protein string"
     return out_protein
+
+
+# Check if it works:
+print(convert_protein('A'))
+print(convert_protein('G'))
+print(convert_protein('C'))
+print(convert_protein('T'))
+print(convert_protein('AGCT'))
 ```
 
-Checking that it works:
-![Screenshot 2023-09-03 at 16.34.37.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fqh%2Fl7367_q936d7t2_57vd5fkjw0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_m0hl5M%2FScreenshot%202023-09-03%20at%2016.34.37.png)
+### Evidence
+![](images/quiz_003_evidence.png)
+*fig. 3* **Screenshot of output in console**

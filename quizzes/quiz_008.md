@@ -1,15 +1,16 @@
 # Quiz 008
-## Sep 8, 2023
+<hr>
 
-Screenshot of quiz
+### Prompt
+![](images/quiz_008_slidestemporary.png)
+*fig. 1* **Screenshot of quiz slides**
 
-Flow Diagram of Solution:
+### Flow Diagram
+*fig. 2* **Flow diagram of solution**
 
-*fig. 1* Flow diagram of solution to quiz 008
-
-Solution:
+### Solution
 ```.py
-def cipher_message(msg:str, shift:int)->str:
+def cipher_message(msg: str, shift: int) -> str:
     msg.lower()
     ciphered = ''
 
@@ -28,6 +29,14 @@ def cipher_message(msg:str, shift:int)->str:
             ciphered += let
 
     return ciphered
+
+
+# Check that it works:
+print(cipher_message(msg="hello world", shift=13))
+print(cipher_message(msg="abcdefghijklmnopqrstuvwxyz", shift=13))
+print(cipher_message(msg="secret", shift=-10))
 ```
 
-Proof:
+### Evidence
+![](images/quiz_008_evidence.png)
+*fig. 3* **Screenshot of output in console**

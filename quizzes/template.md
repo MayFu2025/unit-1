@@ -1,8 +1,8 @@
-# Quiz 002
+# Quiz 
 <hr>
 
 ### Prompt
-![](images/quiz_002_slide.png)
+![](images/quiz_001_slide.png)
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
@@ -14,5 +14,5 @@
 ```
 
 ### Evidence
-![](images/quiz_002_evidence.png)
+![](images/quiz_001_evidence.png)
 *fig. 3* **Screenshot of output in console**
