@@ -30,7 +30,7 @@ print("SL input 'Computer SCIENCE':", sum_letters_sl(text='Computer SCIENCE'))
 # HL
 def sum_letters_hl(text:str) -> int:
     """
-    as the output for Math in the_hl section on the quiz slides is likely not right,
+    as the output for Math in the hl section on the quiz slides is likely not right,
 in my code, I took capital 'A' as 1, and lowercase 'a' as 27, using the ASCII table.
     """
     sum_total = 0
@@ -52,3 +52,4 @@ print("HL input 'MATH':", sum_letters_hl(text='MATH'))
 ### Evidence
 ![](images/quiz_005_evidence.png)
 *fig. 4* **Screenshot of output in console**
+Disclaimer: I believe the outputs given for the SL section in the quiz slides are wrong too. While the outputs for 'Math' and 'maTH' seem to be correct, when finding the sum of the letters in the inputs 'Hello world' and 'Computer SCIENCE' the calculated sum is different to the given output values.
