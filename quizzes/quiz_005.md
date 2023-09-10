@@ -2,13 +2,13 @@
 <hr>
 
 ### Prompt
-![](images/quiz_005_slide.png)
+![](images/quiz_005_slide.png)<br>
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
-![](images/quiz_005_diagram1.jpg)
+![](images/quiz_005_diagram1.jpg)<br>
 *fig. 2* **Flow diagram of SL solution**
-![](images/quiz_005_diagram2.jpg)
+![](images/quiz_005_diagram2.jpg)<br>
 *fig. 3* **Flow diagram of HL solution**
 
 ### Solution
@@ -52,6 +52,6 @@ print("HL input 'MATH':", sum_letters_hl(text='MATH'))
 ```
 
 ### Evidence
-![](images/quiz_005_evidence.png)
+![](images/quiz_005_evidence.png)<br>
 *fig. 4* **Screenshot of output in console**
 Disclaimer: I believe the outputs given for the SL section in the quiz slides are wrong too. While the outputs for 'Math' and 'maTH' seem to be correct, when finding the sum of the letters in the inputs 'Hello world' and 'Computer SCIENCE' the calculated sum is different to the given output values.

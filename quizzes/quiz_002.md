@@ -2,13 +2,13 @@
 <hr>
 
 ### Prompt
-![](images/quiz_002_slide.png)
+![](images/quiz_002_slide.png)<br>
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
-![](images/quiz_002_diagram1.jpg)
+![](images/quiz_002_diagram1.jpg)<br>
 *fig. 2* **Flow diagram of SL solution**
-![](images/quiz_002_diagram2.jpg)
+![](images/quiz_002_diagram2.jpg)<br>
 *fig. 3* **Flow diagram of HL solution**
 
 ### Solution
@@ -46,5 +46,5 @@ print('HL check:', check_20_hl(list1=[10, 30, 10, 26], list2=[20, 15, 5, -6]))
 ```
 
 ### Evidence
-![](images/quiz_002_evidence.png)
+![](images/quiz_002_evidence.png)<br>
 *fig. 4* **Screenshot of output in console**

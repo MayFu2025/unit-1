@@ -2,11 +2,11 @@
 <hr>
 
 ### Prompt
-![](images/quiz_004_slide.png)
+![](images/quiz_004_slide.png)<br>
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
-![](images/quiz_004_diagram.jpg)
+![](images/quiz_004_diagram.jpg)<br>
 *fig. 2* **Flow diagram of solution**
 
 ### Solution
@@ -29,5 +29,5 @@ print(check_factors(31))
 ```
 
 ### Evidence
-![](images/quiz_004_evidence.png)
+![](images/quiz_004_evidence.png)<br>
 *fig. 3* **Screenshot of output in console**

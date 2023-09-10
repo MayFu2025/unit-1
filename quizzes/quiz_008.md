@@ -2,11 +2,11 @@
 <hr>
 
 ### Prompt
-![](images/quiz_008_slidestemporary.png)
+![](images/quiz_008_slidestemporary.png)<br>
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
-![](images/quiz_008_diagram.jpg)
+![](images/quiz_008_diagram.jpg)<br>
 *fig. 2* **Flow diagram of solution**
 
 ### Solution
@@ -39,5 +39,5 @@ print(cipher_message(msg="secret", shift=-10))
 ```
 
 ### Evidence
-![](images/quiz_008_evidence.png)
+![](images/quiz_008_evidence.png)<br>
 *fig. 3* **Screenshot of output in console**

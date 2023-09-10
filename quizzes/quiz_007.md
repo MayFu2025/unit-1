@@ -2,11 +2,11 @@
 <hr>
 
 ### Prompt
-![](images/quiz_007_slide.png)
+![](images/quiz_007_slide.png)<br>
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
-![](images/quiz_007_diagram.jpg)
+![](images/quiz_007_diagram.jpg)<br>
 *fig. 2* **Flow diagram of solution**
 
 ### Solution
@@ -23,5 +23,5 @@ print(f"It took {count} tries to generate a number less than or equal to 15.")
 ```
 
 ### Evidence
-![](images/quiz_007_evidence.png)
+![](images/quiz_007_evidence.png)<br>
 *fig. 3* **Screenshot of output in console**

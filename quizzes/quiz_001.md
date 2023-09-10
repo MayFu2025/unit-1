@@ -2,11 +2,11 @@
 <hr>
 
 ## Prompt
-![](images/quiz_001_slide.png)
+![](images/quiz_001_slide.png)<br>
 *fig. 1* **Screenshot of quiz slides**
 
 ## Flow Diagram
-![](images/quiz_001_diagram.jpg)
+![](images/quiz_001_diagram.jpg)<br>
 *fig. 2* **Flow diagram of solution**
 
 ## Solution
@@ -33,5 +33,5 @@ print(black_box('(codin) + (game) = (codingame)'))
 ```
 
 ## Evidence
-![](images/quiz_001_evidence.png)
+![](images/quiz_001_evidence.png)<br>
 *fig. 3* **Screenshot of output in console**

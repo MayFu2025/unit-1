@@ -2,13 +2,13 @@
 <hr>
 
 ### Prompt
-![](images/quiz_006_slide.png)
+![](images/quiz_006_slide.png)<br>
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
-![](images/quiz_006_diagram1.jpg)
+![](images/quiz_006_diagram1.jpg)<br>
 *fig. 2* **Flow diagram of SL solution**
-![](images/quiz_006_diagram2.jpg)
+![](images/quiz_006_diagram2.jpg)<br>
 *fig. 3* **Flow diagram of HL solution**
 
 ### Solution
@@ -40,7 +40,7 @@ print('HL check:', locate_room(100))
 ```
 
 ### Evidence
-![](images/quiz_006_evidence1.png)
+![](images/quiz_006_evidence1.png)<br>
 *fig. 4* **Screenshot of output in console for SL solution**
-![](images/quiz_006_evidence2.png)
+![](images/quiz_006_evidence2.png)<br>
 *fig. 5* **Screenshot of output in console for HL solution**

@@ -2,11 +2,11 @@
 <hr>
 
 ### Prompt
-![](images/quiz_003_slide.png)
+![](images/quiz_003_slide.png)<br>
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
-![](images/quiz_003_diagram.jpg)
+![](images/quiz_003_diagram.jpg)<br>
 *fig. 2* **Flow diagram of solution**
 
 ### Solution
@@ -36,5 +36,5 @@ print(convert_protein('AGCT'))
 ```
 
 ### Evidence
-![](images/quiz_003_evidence.png)
+![](images/quiz_003_evidence.png)<br>
 *fig. 3* **Screenshot of output in console**
