@@ -1,14 +1,24 @@
-def powers_ten(num: int) -> str:
-    prefix = ['Tera', 'Giga', 'Mega', 'Kilo', 'Unit', 'Mli', 'Micro', 'Nano', 'Pico']
-    power = [12, 9, 6, 3, 0, -3, -6, -9, -12]
-    out = ''
-    for i in range(len(prefix)):
-        out += f'{num} {"0" * power[i]}\n'
-    return out
+def powers_ten(s: str) -> str:
+    num = s.split(" ")[0]
+    unit = " ".join(s.split()[1:])
+    prefixes = ['tera', 'giga', 'mega', 'kilo', '', 'milli', 'micro', 'nano', 'pico']
+    powers = [12, 9, 6, 3, 0, -3, -6, -9, -12]
+    out = []
+    count = 8
+    for power in powers:
+        if power < 0:
+            temp = f"0.{('000' * (abs(power) // 3))[:-1]}{num}"
+        elif power > 0:
+            temp = f"{num}{'000' * (abs(power) // 3)}"
+        else:
+            temp = num
+        temp = temp.ljust(20)
+        out.append(f"{temp}{prefixes[count]}{unit}")
+        count -= 1
+    return "\n".join(out)
 
-print(powers_ten(1))
 
-# So hard???
+print(powers_ten(input("Input a number with unit: ")))
 
 
 
