@@ -44,7 +44,7 @@ def bestmonthHL(month: int) -> str:
 print(bestmonthHL(month=10))
 
 
-# ######Class Solution######
+# ######Class Solution########
 # def make_calendar_month():
 #     calendar = ''
 #     days = ['Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun', 'Mon']
