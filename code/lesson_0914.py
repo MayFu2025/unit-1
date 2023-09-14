@@ -16,6 +16,7 @@ def try_login(name: str, password: str) -> bool:
     return success
 
 
+
 # Testing
 attempts = 3
 
