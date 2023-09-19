@@ -2,7 +2,7 @@
 <hr>
 
 ### Prompt
-![]()
+![](images/quiz_011_slide.png)
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram

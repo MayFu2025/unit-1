@@ -1,19 +1,3 @@
-# def bestMonth():
-#     weekdays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-#     days_in_may = 31
-#     index_week = 0
-#     output = ''
-#     for n in range(1, days_in_may+1):
-#         if index_week > 6:
-#             index_week = 0
-#         output += f'{weekdays[index_week]} {n} '
-#         index_week += 1
-#
-#     return output
-#
-#
-# print(bestMonth())
-
 def bestmonthHL(month: int) -> str:
     weekdays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
     months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
@@ -48,19 +32,3 @@ print(bestmonthHL(month=10))
 #print(f'{months[month-1]}'.lcenter(20))
 #for wd in range(len(weekdays))
 #print(f'{}')
-
-
-# ######Class Solution########
-# def make_calendar_month():
-#     calendar = ''
-#     days = ['Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun', 'Mon']
-#     for d in range(1, 31):
-#         calendar += f'{d:02d} {days[d%7-1]} '
-#         if d%7 == 0:
-#             calendar += '\n'
-#
-#     return calendar
-#
-# print(make_calendar_month())
-#
-# ##########################
