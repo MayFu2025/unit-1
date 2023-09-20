@@ -1,7 +1,7 @@
 # Create a login function!
 
 def try_login(name: str, password: str) -> bool:
-    with open('users_lesson_0914.csv', mode='r') as f:
+    with open('lesson_0914_users.csv', mode='r') as f:
         data = f.readlines()
 
     success = False

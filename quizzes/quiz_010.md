@@ -6,6 +6,7 @@
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
+![](images/quiz_010_diagram.png)
 *fig. 2* **Flow diagram of solution**
 
 ### Solution
@@ -14,5 +15,5 @@
 ```
 
 ### Evidence
-![]()
+![](images/quiz_010_evidence.png)
 *fig. 3* **Screenshot of output in console**

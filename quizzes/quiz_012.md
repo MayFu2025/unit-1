@@ -2,11 +2,11 @@
 <hr>
 
 ### Prompt
-![](images/quiz_001_slide.png)
+![](images/quiz_012_slide.png)
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
-
+![](images/quiz_012_diagram.jpg)
 *fig. 2* **Flow diagram of solution**
 
 ### Solution

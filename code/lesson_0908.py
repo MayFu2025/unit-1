@@ -94,5 +94,5 @@ print(frame_maker(msg=f"Your total is {(total*1.1):.2f} yen.", symbol='*', space
 
 
 # CREATE NEW CSV FILE WHICH SAVES THE TOTAL FROM EACH TIME THE CODE IS RUN
-with open("sales_lesson_0908.csv", 'a') as myfile:
+with open("lesson_0908_sales.csv", 'a') as myfile:
     myfile.writelines(f"order date total {total*1.1:.2f}\n")
