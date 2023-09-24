@@ -23,11 +23,6 @@ def validate_selection(choices: list) -> int:
     select = int(select)
     return select
 
-def menu(choices):
-    print(display_menu(choices))
-    select = validate_selection(choices)
-    return select
-
 
 # Start-up and Log-in/Create User
 def try_login(name: str, password: str) -> bool:
@@ -56,7 +51,6 @@ def login_function() -> tuple:
 def create_user():
     with open('users.csv', mode='r') as users_list:
         users_database = users_list.readlines()
-        print(users_database)
     new_name = input("Create a username: ")
     if users_database:
         validate = True
