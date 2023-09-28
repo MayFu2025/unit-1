@@ -7,7 +7,8 @@ def mystery_doors(num_students):
             doors[d] = not doors[d]
     return doors.count(True)
 
+# def mystery_doors2(num_students:int)->int:
+#     return (int(num_students**0.5))
+
 # Check that it works:
-print(mystery_doors(5))
-print(mystery_doors(5))
 print(mystery_doors(5))
