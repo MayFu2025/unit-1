@@ -6,8 +6,11 @@
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
-![](images/quiz_011_diagram.jpg)
-*fig. 2* **Flow diagram of solution**
+![](images/quiz_011_diagram1.jpg)
+*fig. 2* **Flow diagram of validation of user input**
+
+![](images/quiz_011_diagram2.jpg)
+*fig. 3* **Flow diagram of solution**
 
 ### Solution
 ```.py
@@ -31,4 +34,4 @@ print(mul_table(n=number))
 
 ### Evidence
 ![](images/quiz_011_evidence.png)
-*fig. 3* **Screenshot of output in console**
+*fig. 4* **Screenshot of output in console**
