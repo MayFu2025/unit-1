@@ -1,8 +1,8 @@
-# Quiz 013?
+# Quiz 013
 <hr>
 
 ### Prompt
-**Slide for this quiz no longer exists???**
+**Slide for this quiz no longer exists(?), but the quiz was done in class.**
 
 ### Flow Diagram
 ![](images/quiz_013_old_diagram.jpg)
