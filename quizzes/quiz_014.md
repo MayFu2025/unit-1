@@ -1,12 +1,12 @@
-# Quiz 013
+# Quiz 014
 <hr>
 
 ### Prompt
-![](images/quiz_013_slide.png)
+![](images/quiz_014_slide.png)
 *fig. 1* **Screenshot of quiz slides**
 
 ### Flow Diagram
-![](images/quiz_013_diagram.jpg)
+![](images/quiz_014_diagram.png)
 *fig. 2* **Flow diagram of solution**
 
 ### Solution
