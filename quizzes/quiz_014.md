@@ -37,5 +37,5 @@ print(mystery_box3("Create a function"))
 ```
 
 ### Evidence
-![](images/quiz_013_evidence.png)
+![](images/quiz_014_evidence.png)
 *fig. 3* **Screenshot of output in console**
