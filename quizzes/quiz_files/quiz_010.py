@@ -14,7 +14,7 @@
 #
 # print(bestMonth())
 
-def bestmonthHL(month: int) -> str:
+def bestmonth(month: int) -> str:
     weekdays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
     months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
     month_length = {
@@ -33,6 +33,7 @@ def bestmonthHL(month: int) -> str:
     start_week = month_length[month][1]
     index_week = weekdays.index(start_week)
     output = ''
+    output += f'2023 {months[month-1]}'.center(50) + '\n'
     for n in range(1, month_length[month][0]+1):
         if index_week % 7 == 0:
             index_week = 0
@@ -42,8 +43,8 @@ def bestmonthHL(month: int) -> str:
 
     return output
 
-
-print(bestmonthHL(month=10))
+# Check that it works:
+print(bestmonth(month=10))
 
 #print(f'{months[month-1]}'.lcenter(20))
 #for wd in range(len(weekdays))

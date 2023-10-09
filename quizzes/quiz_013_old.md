@@ -2,8 +2,7 @@
 <hr>
 
 ### Prompt
-![]
-*fig. 1* **Screenshot of quiz slides**
+**Slide for this quiz no longer exists???**
 
 ### Flow Diagram
 ![](images/quiz_013_old_diagram.jpg)
